@@ -1,6 +1,7 @@
 // option1.rs
 // Make me compile! Execute `rustlings hint option1` for hints
 
+
 // I AM NOT DONE
 
 // you can modify anything EXCEPT for this function's signature
