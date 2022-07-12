@@ -19,6 +19,6 @@ fn main() {
             ((iter * 1235) + 2) / (4 * 16)
         };
 
-       // numbers[iter as usize] = number_to_add;
+       numbers[iter as usize] = number_to_add;
     }
 }
