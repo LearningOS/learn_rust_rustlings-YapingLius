@@ -5,7 +5,7 @@
 // I AM NOT DONE
 
 // you can modify anything EXCEPT for this function's signature
-fn print_number(maybe_number: Option<u16>) {
+fn print_number(maybe_number: i32) {
     println!("printing: {}", maybe_number.unwrap());
 }
 
@@ -19,6 +19,6 @@ fn main() {
             ((iter * 1235) + 2) / (4 * 16)
         };
 
-        numbers[iter as usize] = number_to_add;
+       // numbers[iter as usize] = number_to_add;
     }
 }

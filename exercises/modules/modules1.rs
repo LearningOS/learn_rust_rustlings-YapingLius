@@ -1,7 +1,7 @@
 // modules1.rs
 // Make me compile! Execute `rustlings hint modules1` for hints :)
 
-// I AM NOT DONE
+
 
 mod sausage_factory {
     // Don't let anybody outside of this module see this!
@@ -16,5 +16,7 @@ mod sausage_factory {
 }
 
 fn main() {
-    sausage_factory::make_sausage();
+    // use sausage_factory;
+    crate::sausage_factory::get_secret_recipe();
+   //sausage_factory::get_secret_recipe().;
 }
