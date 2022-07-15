@@ -16,7 +16,6 @@ mod sausage_factory {
 }
 
 fn main() {
-    // use sausage_factory;
     sausage_factory::make_sausage();
-   //sausage_factory::get_secret_recipe().;
 }
+
